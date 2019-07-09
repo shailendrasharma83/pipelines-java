@@ -3,14 +3,14 @@ import org.junit.Test;
 
 public class MyTest {
     @Test
-    public void test_method_1() {
+    public void test_method1() {
         Demo d = new Demo();
         d.DoSomething(true);
         
     }
 
     @Test
-    public void test_method_2() {
+    public void testmethod2() {
          System.out.println("--------------------running test------>>");
     }
 }
